@@ -80,8 +80,8 @@ const About = () => {
               <ul className="fw-bolder">
                 <li>Gaming</li>
                 <li>Web Development</li>
-                <li>Competetive programming</li>
-                <li>ML/Data Science</li>
+                <li>Coding</li>
+                <a href=""><li>Competetive programming</li></a>
               </ul>
             </div>
           </Col>
