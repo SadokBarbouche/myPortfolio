@@ -6,6 +6,7 @@ import TechnicalSkills from './pages/technicalSkills';
 import Projects from './pages/projects';
 import Contact from './pages/contact';
 import { Routes, Route, Link } from "react-router-dom";
+import Experiences from './pages/Experience';
 function App() {
   return (
     <div className="App">
@@ -13,6 +14,7 @@ function App() {
       <About/>
       <TechnicalSkills/>
       <Projects/>
+      <Experiences/>
       <Contact/>
     </div>
   );

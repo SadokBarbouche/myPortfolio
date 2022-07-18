@@ -58,7 +58,7 @@ const TechnicalSkills = () => {
                 <p className="text-start fw-bolder fs-4 text-dark">
                   Django
                   <span style={{ float: "right" }} className="my-2 fs-6 pe-1">
-                    50%
+                    55%
                   </span>
                 </p>
                 <ProgressBar now={60} variant="danger" className="my-3" />
@@ -80,12 +80,12 @@ const TechnicalSkills = () => {
             </Row>
           </ScrollAnimation>
           <ScrollAnimation animateIn="fadeInLeft" delay={50}>
-            <Row className="my-4">
+            <Row className="my-4 ">
               <Col sm={12} md={6}>
                 <p className="text-start fw-bolder fs-4 text-dark">
                   Java
                   <span style={{ float: "right" }} className="my-2 fs-6 pe-1">
-                    55%
+                    50%
                   </span>
                 </p>
                 <ProgressBar now={55} variant="danger" className="my-3" />

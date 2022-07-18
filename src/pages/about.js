@@ -38,7 +38,9 @@ const About = () => {
                 I am a 20 years old student from El Kef .I got my{" "}
                 <span className="fw-bolder">
                   Mathematics Baccalaureate with Honors
-                </span> and have recently finished my<span className="fw-bolder"> preparatory cycle</span>.
+                </span>{" "}
+                and have recently finished my
+                <span className="fw-bolder"> preparatory cycle</span>.
               </p>
             </div>
           </Col>
@@ -81,7 +83,14 @@ const About = () => {
                 <li>Gaming</li>
                 <li>Web Development</li>
                 <li>Coding</li>
-                <a href=""><li>Competetive programming</li></a>
+                <a
+                  target="blank"
+                  href="https://codeforces.com/profile/SadokBarbouche"
+                  className="text-dark"
+                  style={{ textDecoration: "none" }}
+                >
+                  <li>Competetive programming</li>
+                </a>
               </ul>
             </div>
           </Col>
