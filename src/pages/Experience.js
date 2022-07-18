@@ -150,7 +150,7 @@ const Experiences = () => {
                 It was my first experience when it comes to CP . My team and I
                 managed to win a first blood . Unfortunately,due to some
                 technical issues , the platform could not handle the huge number
-                of participants and fell down. technical
+                of participants and fell down. 
               </h4>
             </VerticalTimelineElement>
 

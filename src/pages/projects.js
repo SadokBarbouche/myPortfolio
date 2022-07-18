@@ -7,7 +7,7 @@ import ScrollAnimation from "@stromsky/react-animate-on-scroll";
 const Projects = () => {
   return (
     <div style={{ backgroundColor: "black", border: "1px black solid" }}>
-      <Container className="my-5 py-5">
+      <Container className="py-5">
         <h1 className="display-1 fw-bolder  text-center mb-4 text-light">
           Projects
           <span style={{ color: "red" }}>

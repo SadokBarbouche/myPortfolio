@@ -35,7 +35,7 @@ const About = () => {
                 Biography :
               </p>
               <p className="fs-5">
-                I am a 20 years old student from El Kef .I got my{" "}
+                I am a 21 y.o student from El Kef .I got my{" "}
                 <span className="fw-bolder">
                   Mathematics Baccalaureate with Honors
                 </span>{" "}
