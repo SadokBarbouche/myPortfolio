@@ -117,7 +117,7 @@ const TechnicalSkills = () => {
                 <p className="text-start fw-bolder fs-4 text-dark">
                   React Native
                   <span style={{ float: "right" }} className="my-2 fs-6 pe-1">
-                    50%
+                    50% 
                   </span>
                 </p>
                 <ProgressBar
