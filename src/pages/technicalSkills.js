@@ -130,7 +130,7 @@ const TechnicalSkills = () => {
             </Row>
           </ScrollAnimation>
           <ScrollAnimation animateIn="fadeInLeft" delay={50}>
-            <Row className="my-4">
+            <Row className="my-4 mb-5">
               <Col sm={12} md={6}>
                 <p className="text-start fw-bolder fs-4 text-dark">
                   DSA

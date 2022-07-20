@@ -12,6 +12,7 @@ const Experiences = () => {
     words: "++",
     loop: 0,
   });
+  const screenWidthDiff = Boolean(window.screen.availWidth - 950> 0);
   return (
     <div style={{ backgroundColor: "black" }}>
       <Container className="text-light pb-5">
@@ -27,7 +28,7 @@ const Experiences = () => {
           </span>
         </p>
         <div>
-          <VerticalTimeline>
+          <VerticalTimeline animate={screenWidthDiff} >
             <VerticalTimelineElement
               className="vertical-timeline-element--work "
               contentStyle={{
