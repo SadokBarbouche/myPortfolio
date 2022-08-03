@@ -163,7 +163,7 @@ const Experiences = () => {
                 P.B.R<span className="fs-6"> (v0)</span>
               </h3>
               <h4
-                className="text-start vertical-timeline-element-subtitle fs-6"
+                className="text-start vertical-timeline-element-subtitle fs-6"  
                 style={{ lineHeight: "1.5" }}
               >
                 It was my first experience when it comes to CP . My team and I
@@ -172,7 +172,6 @@ const Experiences = () => {
                 of participants and fell down. 
               </h4>
             </VerticalTimelineElement>
-
             <VerticalTimelineElement
               iconStyle={{ background: "white", color: "red" }}
             />

@@ -34,7 +34,7 @@ const About = () => {
     </svg>
   );
   return (
-    <ScrollAnimation animateIn="fadeIn" animateOut="fadeOut">
+    <ScrollAnimation animateIn="fadeIn" animateOnce="true" >
       <Container className="text-start my-5 pb-5">
         <ScrollToTop
           smooth
@@ -48,7 +48,7 @@ const About = () => {
           }}
         />
 
-        <h1 className="display-1 fw-bolder text-center mb-3">
+        <h1 className="display-1 fw-bolder text-center mb-5">
           {" "}
           whoami
           <span style={{ color: "red" }}>
@@ -132,8 +132,8 @@ const About = () => {
                 >
                   <li>
                     Competetive programming{" "}
-                    <span className="text-danger">
-                      <Cursor cursorStyle={coneIcon} />
+                    <span className="ms-1 text-danger">
+                      {coneIcon}
                     </span>
                   </li>
                 </a>

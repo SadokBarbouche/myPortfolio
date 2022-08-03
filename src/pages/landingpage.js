@@ -1,7 +1,8 @@
 import React from "react";
-import { Container } from "react-bootstrap";
+import { Button, Container } from "react-bootstrap";
 import ScrollToTop from "react-scroll-to-top";
 import { Typewriter, useTypewriter, Cursor } from "react-simple-typewriter";
+import About from "./about";
 
 export default function LandingPage() {
   const { text } = useTypewriter({
@@ -58,6 +59,7 @@ export default function LandingPage() {
             </h1>
           </h1>
         </Container>
+
       </div>
       <ScrollToTop smooth component={arrowTop} style={{borderRadius:"25px",opacity:"0.5",border:"1px white solid",right:"20px",bottom:"10px"}}/>
     </div>

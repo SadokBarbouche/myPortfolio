@@ -7,6 +7,7 @@ import Projects from "./pages/projects";
 import Contact from "./pages/contact";
 import { Routes, Route, Link } from "react-router-dom";
 import Experiences from "./pages/Experience";
+import Footer from "./pages/footer";
 function App() {
   return (
     <div className="App">

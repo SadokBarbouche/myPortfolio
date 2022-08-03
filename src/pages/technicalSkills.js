@@ -4,20 +4,9 @@ import { Col, Container, Row } from "react-bootstrap";
 import { Cursor, useTypewriter } from "react-simple-typewriter";
 import ProgressBar from "react-bootstrap/ProgressBar";
 const TechnicalSkills = () => {
-  const skillsData = [
-    {
-      name: "ReactJS",
-      level: 60,
-      color: "Black",
-    },
-    {
-      name: "SomeOtherTech",
-      level: 85,
-      color: "red",
-    },
-  ];
+
   return (
-    <ScrollAnimation animateIn="fadeIn" delay={350}>
+    <ScrollAnimation animateIn="fadeIn" delay={350} animateOnce="true">
       <Container className="mt-3 py-2">
         <h1 className="display-1 fw-bolder  text-center">
           {" "}
@@ -29,17 +18,17 @@ const TechnicalSkills = () => {
           </span>
         </h1>
         <Container className="mx-3 my-2">
-          <ScrollAnimation animateIn="fadeInLeft" delay={50}>
+          <ScrollAnimation animateIn="fadeInLeft" delay={50} animateOnce="true">
             <Row className="my-4">
               <Col sm={12} md={6}>
                 <p className="text-start fw-bolder fs-4">
                   React JS
                   <span style={{ float: "right" }} className="my-2 fs-6 pe-1">
-                    50%
+                    70%
                   </span>
                 </p>
 
-                <ProgressBar now={50} variant="danger" className="my-3" />
+                <ProgressBar now={70} variant="danger" className="my-3" />
               </Col>
               <Col sm={12} md={6}>
                 <p className="text-start fw-bolder fs-4 text-dark">
@@ -52,7 +41,7 @@ const TechnicalSkills = () => {
               </Col>
             </Row>
           </ScrollAnimation>
-          <ScrollAnimation animateIn="fadeInRight" delay={50}>
+          <ScrollAnimation animateIn="fadeInRight" delay={50} animateOnce="true">
             <Row className="my-4">
               <Col sm={12} md={6}>
                 <p className="text-start fw-bolder fs-4 text-dark">
@@ -61,7 +50,7 @@ const TechnicalSkills = () => {
                     55%
                   </span>
                 </p>
-                <ProgressBar now={60} variant="danger" className="my-3" />
+                <ProgressBar now={55} variant="danger" className="my-3" />
               </Col>
               <Col sm={12} md={6}>
                 <p className="text-start fw-bolder fs-4 text-dark">
@@ -79,13 +68,13 @@ const TechnicalSkills = () => {
               </Col>
             </Row>
           </ScrollAnimation>
-          <ScrollAnimation animateIn="fadeInLeft" delay={50}>
+          <ScrollAnimation animateIn="fadeInLeft" delay={50} animateOnce="true">
             <Row className="my-4 ">
               <Col sm={12} md={6}>
                 <p className="text-start fw-bolder fs-4 text-dark">
                   Java
                   <span style={{ float: "right" }} className="my-2 fs-6 pe-1">
-                    50%
+                    55%
                   </span>
                 </p>
                 <ProgressBar now={55} variant="danger" className="my-3" />
@@ -94,15 +83,15 @@ const TechnicalSkills = () => {
                 <p className="text-start fw-bolder fs-4 text-dark">
                   C/C++
                   <span style={{ float: "right" }} className="my-2 fs-6 pe-1">
-                    50%
+                    70%
                   </span>
                 </p>
 
-                <ProgressBar now={50} variant="danger" className="my-3" />
+                <ProgressBar now={70} variant="danger" className="my-3" />
               </Col>
             </Row>
           </ScrollAnimation>
-          <ScrollAnimation animateIn="fadeInRight" delay={50}>
+          <ScrollAnimation animateIn="fadeInRight" delay={50} animateOnce="true">
             <Row className="my-4">
               <Col sm={12} md={6}>
                 <p className="text-start fw-bolder fs-4 text-dark">
@@ -129,7 +118,7 @@ const TechnicalSkills = () => {
               </Col>
             </Row>
           </ScrollAnimation>
-          <ScrollAnimation animateIn="fadeInLeft" delay={50}>
+          <ScrollAnimation animateIn="fadeInLeft" delay={50} animateOnce="true">
             <Row className="my-4 mb-5">
               <Col sm={12} md={6}>
                 <p className="text-start fw-bolder fs-4 text-dark">

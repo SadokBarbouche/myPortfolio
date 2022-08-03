@@ -4,9 +4,10 @@ import { Button, Col, Container, Image, Row } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import { Cursor, useTypewriter } from "react-simple-typewriter";
 import MyPic from "../assets/my pic.jpeg";
+import Footer from "./footer";
 const Contact = () => {
   const { text } = useTypewriter({
-    words: ["contact me :)", "hire me <3"],
+    words: ["contact me", " ", "hire me", " "],
     loop: "0",
   });
 
@@ -19,7 +20,7 @@ const Contact = () => {
         </span>
       </h2>
       <Container style={{ display: "flex", justifyContent: "center" }}>
-        <ScrollAnimation animateIn="fadeInLeft">
+        <ScrollAnimation animateIn="fadeInLeft" animateOnce="true">
           <Row className="my-5">
             <Col md={4} sm={10} className="me-md-5">
               <Image
