@@ -16,9 +16,9 @@ const ComingSoon = () => {
       }}
     >
       <Container className="my-5 py-md-4">
-        <ScrollAnimation animateIn="fadeIn" animateOnce="true">
-          <Row>
-            <Col md={6} sm={12}>
+        <Row>
+          <Col md={6} sm={12}>
+            <ScrollAnimation animateIn="slideInLeft" animateOnce="true">
               <h3 className="text-start fs-4 fw-bold text-danger text-decoration-underline">
                 Coming Soon ?
               </h3>
@@ -38,14 +38,14 @@ const ComingSoon = () => {
                 </strong>
                 .
               </p>
-            </Col>
-            <Col className="d-none d-sm-block">
-              <ScrollAnimation animateIn="slideLeft" animateOnce="true">
-                <Image src={ComingSoonPic} fluid />
-              </ScrollAnimation>
-            </Col>
-          </Row>
-        </ScrollAnimation>
+            </ScrollAnimation>
+          </Col>
+          <Col className="d-none d-sm-block">
+            <ScrollAnimation animateIn="slideInRight" animateOnce="true">
+              <Image src={ComingSoonPic} fluid />
+            </ScrollAnimation>
+          </Col>
+        </Row>
       </Container>
     </div>
   );

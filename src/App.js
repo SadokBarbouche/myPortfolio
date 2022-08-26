@@ -8,15 +8,19 @@ import Contact from "./pages/contact";
 import { Routes, Route, Link } from "react-router-dom";
 import Experiences from "./pages/Experience";
 import Footer from "./pages/footer";
+import { Cursor as AnimatedCursor } from "react-creative-cursor";
+import "react-creative-cursor/dist/styles.css";
 function App() {
   return (
     <div className="App">
-        <LandingPage />
-        <About />
-        <TechnicalSkills />
-        <Projects />
-        <Experiences />
-        <Contact />
+      <AnimatedCursor isGelly={true} cursorBackgrounColor="rgb(139,0,0,0.5)
+" />
+      <LandingPage />
+      <About />
+      <TechnicalSkills />
+      <Projects />
+      <Experiences />
+      <Contact />
     </div>
   );
 }
