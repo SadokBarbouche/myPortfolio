@@ -4,7 +4,7 @@ import { Button, Col, Container, Image, Row } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import { Cursor, useTypewriter } from "react-simple-typewriter";
 import MyPic from "../assets/my pic.jpeg";
-import Footer from "./footer";
+import CV from "../assets/SadokBarbouche_CV.pdf";
 const Contact = () => {
   const { text } = useTypewriter({
     words: ["contact me", " ", "hire me", " "],
@@ -26,7 +26,7 @@ const Contact = () => {
               <Image
                 src={MyPic}
                 rounded
-                style={{ border: "7px red solid" }}
+                style={{ border: "2px red solid" }}
                 fluid
               />
             </Col>
@@ -39,7 +39,7 @@ const Contact = () => {
               <a
                 href="https://www.facebook.com/sadok.barbouche.942"
                 target={"blank"}
-                className="text-dark"
+                className="text-light"
                 style={{ textDecoration: "none" }}
               >
                 <p className="fs-5 fw-bolder">
@@ -63,7 +63,7 @@ const Contact = () => {
                 href="https://github.com/SadokBarbouche/"
                 target="blank"
                 style={{ textDecoration: "none" }}
-                className="text-dark"
+                className="text-light"
               >
                 <p className="fs-5 fw-bolder">
                   <span>
@@ -85,7 +85,7 @@ const Contact = () => {
               <a
                 href="https://www.linkedin.com/in/barbouche-sadok-03b162210/"
                 target={"blank"}
-                className="text-dark"
+                className="text-light"
                 style={{ textDecoration: "none" }}
               >
                 <p className="fs-5 fw-bolder">
@@ -107,7 +107,7 @@ const Contact = () => {
               </a>
               <a
                 href="mailto:sadokchameseddine.barbouche@insat.ucar.tn"
-                className="text-dark"
+                className="text-light"
                 style={{ textDecoration: "none" }}
               >
                 <p className="fs-5 fw-bolder">
@@ -143,9 +143,19 @@ const Contact = () => {
                   3 Rue d'Alger , Kef , 7100 , Tunisia
                 </span>
               </p>
-              <Button className="fs-5 fw-bolder bg-danger mt-3" variant="dark">
-                Download CV{" "}
-                <span style={{ fontSize: "12px" }}>(Available ASAP)</span>
+              <Button className="fs-5 fw-bolder bg-dark mt-3" variant="dark">
+                <a
+                  href={CV}
+                  style={{
+                    textDecoration: "none",
+                    color: "#fff",
+                  }}
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  {" "}
+                  Download CV{" "}
+                </a>
               </Button>
             </Col>
           </Row>

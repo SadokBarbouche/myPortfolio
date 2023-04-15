@@ -4,10 +4,9 @@ import { Cursor } from "react-simple-typewriter";
 import PortfolioProject from "../assets/PortfolioProject.png";
 import CookiiniProject from "../assets/CookiiniProject.png";
 import ScrollAnimation from "@stromsky/react-animate-on-scroll";
-import ComingSoon from "./comingsoon";
 const ProjectItem = (props) => (
   <Col sm={12} lg={6} className="my-3">
-    <Card style={{ backgroundColor: "#343434" }} className="px-3 py-3">
+    <Card style={{ backgroundColor: "#181818" }} className="px-3 py-3">
       <Card.Body>
         <Card.Text
           className="text-start text-light fw-bolder fs-1 mb-1"
@@ -106,7 +105,7 @@ const Projects = () => {
             <Row>
               <Col sm={12} lg={6} className="my-3">
                 <Card
-                  style={{ backgroundColor: "#343434" }}
+                  style={{ backgroundColor: "#181818" }}
                   className="px-3 py-3"
                 >
                   <Card.Body>
@@ -193,7 +192,7 @@ const Projects = () => {
               </Col>
               <Col sm={12} lg={6} className="my-3">
                 <Card
-                  style={{ backgroundColor: "#343434" }}
+                  style={{ backgroundColor: "#181818" }}
                   className="px-3 py-3"
                 >
                   <Card.Body>
@@ -281,7 +280,6 @@ const Projects = () => {
           </Container>
         </ScrollAnimation>
       </Container>
-      <ComingSoon />
     </div>
   );
 };

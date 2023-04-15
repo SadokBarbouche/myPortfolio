@@ -12,8 +12,11 @@ import { Cursor as AnimatedCursor } from "react-creative-cursor";
 import "react-creative-cursor/dist/styles.css";
 function App() {
   return (
-    <div className="App">
-      <AnimatedCursor isGelly={true} cursorBackgrounColor="rgb(139,0,0,0.5)
+    <div className="App" style={{
+      backgroundColor:"black",
+      color:"white"
+    }}>
+      <AnimatedCursor isGelly={false} cursorBackgrounColor="rgb(139,0,0,0.5)
 " />
       <LandingPage />
       <About />

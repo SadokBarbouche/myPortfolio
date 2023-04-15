@@ -10,10 +10,11 @@ export default function LandingPage() {
   const { text } = useTypewriter({
     words: [
       " an ICT engineering Student @INSAT",
-      " a Web developer",
-      "  an IT enthusiast",
-      " currently learning mobile development",
+      "  a Machine Learning enthusiast",
+      " a Deep Learning enthusiast",
       " open to work",
+      " a minimalist"
+
     ],
     loop: "0",
   });
@@ -21,7 +22,7 @@ export default function LandingPage() {
     <svg
       xmlns="http://www.w3.org/2000/svg"
       width="24"
-      height="24"
+      height="24" 
       fill="invertColor"
       class="bi bi-arrow-up-circle"
       viewBox="0 0 16 16"

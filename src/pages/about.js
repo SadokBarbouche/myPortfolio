@@ -65,7 +65,7 @@ const About = () => {
         >
           <Col
             className="text-start mx-3 my-1 shadow-lg"
-            style={{ border: "2px black solid", borderRadius: "7px" }}
+            style={{ border: "2px white solid", borderRadius: "5px" }}
             sm={7}
             md={7}
             xs={7}
@@ -92,7 +92,7 @@ const About = () => {
             md={7}
             xs={7}
             lg={3}
-            style={{ border: "2px black solid", borderRadius: "7px" }}
+            style={{ border: "2px red solid", borderRadius: "5px" }}
           >
             <div>
               <p className="fw-bold my-3 fs-3" style={{ color: "red" }}>
@@ -109,7 +109,7 @@ const About = () => {
           </Col>
 
           <Col
-            style={{ border: "2px black solid", borderRadius: "7px" }}
+            style={{ border: "2px white solid", borderRadius: "5px" }}
             className="mx-3 my-2 shadow-lg"
             sm={7}
             md={7}
@@ -126,8 +126,8 @@ const About = () => {
                 <li>Coding</li>
                 <a
                   target="blank"
-                  href="https://codeforces.com/profile/SadokBarbouche"
-                  className="text-dark"
+                  href="https://leetcode.com/SadokBarbouche/"
+                  className="text-light"
                   style={{ textDecoration: "none" }}
                 >
                   <li>

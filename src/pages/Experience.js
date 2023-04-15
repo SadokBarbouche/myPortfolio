@@ -12,7 +12,7 @@ const Experiences = () => {
     words: "++",
     loop: 0,
   });
-  const screenWidthDiff = Boolean(window.screen.availWidth - 950> 0);
+  const screenWidthDiff = Boolean(window.screen.availWidth - 950 > 0);
   return (
     <div style={{ backgroundColor: "black" }}>
       <Container className="text-light pb-5">
@@ -28,20 +28,50 @@ const Experiences = () => {
           </span>
         </p>
         <div>
-          <VerticalTimeline animate={screenWidthDiff} >
+          <VerticalTimeline animate={screenWidthDiff}>
             <VerticalTimelineElement
-              className="vertical-timeline-element--work "
               contentStyle={{
                 background: "#000",
                 color: "white",
                 border: "5px white solid",
               }}
+              className="vertical-timeline-element--work"
+              date="02/2023 - present"
+              iconStyle={{ background: "red", color: "red" }}
               contentArrowStyle={{
-                marginRight:"1px",
+                marginRight: "1px",
+                borderRight: "15px solid  white",
+              }}
+            >
+              <h3
+                className="vertical-timeline-element-title fw-bolder fs-1 text-start"
+                style={{ lineHeight: "1.1" }}
+              >
+                Topic Extraction for Video using Machine Learning
+              </h3>
+              <h4
+                className="py-2 text-start vertical-timeline-element-subtitle fs-6"
+                style={{ lineHeight: "1.5", borderTop: "1px white solid" }}
+              >
+                Data preprocessing, conducting exploratory data analysis, and
+                developing a classification model using natural language
+                processing techniques.
+              </h4>
+            </VerticalTimelineElement>
+
+            <VerticalTimelineElement
+              className="vertical-timeline-element--work "
+              contentStyle={{
+                background: "black",
+                color: "white",
+                border: "5px white solid",
+              }}
+              contentArrowStyle={{
+                marginRight: "1px",
                 borderRight: "15px solid  white",
               }}
               date="04/2022 - present"
-              iconStyle={{ background: "red", color: "#fff" }}
+              iconStyle={{ background: "black", color: "#fff" }}
             >
               <h3
                 className="text-start vertical-timeline-element-title fw-bolder fs-1 "
@@ -66,7 +96,7 @@ const Experiences = () => {
               date="2022 - present"
               iconStyle={{ background: "black", color: "#fff" }}
               contentArrowStyle={{
-                marginRight:"1px",
+                marginRight: "1px",
                 borderRight: "15px solid  white",
               }}
             >
@@ -86,17 +116,17 @@ const Experiences = () => {
             </VerticalTimelineElement>
             <VerticalTimelineElement
               contentStyle={{
-                background: "red",
+                background: "black",
                 color: "white",
                 border: "5px white solid",
               }}
               contentArrowStyle={{
-                marginRight:"1px",
+                marginRight: "1px",
                 borderRight: "15px solid  white",
               }}
               className="vertical-timeline-element--work"
               date="05/2022"
-              iconStyle={{ background: "red", color: "#fff" }}
+              iconStyle={{ background: "black", color: "#fff" }}
             >
               <h3
                 className="vertical-timeline-element-title fw-bolder fs-1 text-start"
@@ -115,12 +145,12 @@ const Experiences = () => {
             </VerticalTimelineElement>
             <VerticalTimelineElement
               contentStyle={{
-                background: "red",
+                background: "black",
                 color: "white",
                 border: "5px white solid",
               }}
               contentArrowStyle={{
-                marginRight:"1px",
+                marginRight: "1px",
                 borderRight: "15px solid  white",
               }}
               className="vertical-timeline-element--work"
@@ -149,12 +179,12 @@ const Experiences = () => {
                 border: "5px white solid",
               }}
               contentArrowStyle={{
-                marginRight:"1px",
+                marginRight: "1px",
                 borderRight: "15px solid  white",
               }}
               className="vertical-timeline-element--work"
               date="11/2021"
-              iconStyle={{ background: "red", color: "#fff" }}
+              iconStyle={{ background: "black", color: "#fff" }}
             >
               <h3
                 className="vertical-timeline-element-title fw-bolder fs-3 text-start"
@@ -163,13 +193,14 @@ const Experiences = () => {
                 P.B.R<span className="fs-6"> (v0)</span>
               </h3>
               <h4
-                className="text-start vertical-timeline-element-subtitle fs-6"  
+                className="text-start vertical-timeline-element-subtitle fs-6"
                 style={{ lineHeight: "1.5" }}
               >
                 It was my first experience when it comes to CP . My team and I
-                managed to win a first blood against the best competetive programmers in Tunisia. Unfortunately,due to some
-                technical issues , the platform could not handle the huge number
-                of participants and fell down. 
+                managed to win a first blood against the best competetive
+                programmers in Tunisia. Unfortunately,due to some technical
+                issues , the platform could not handle the huge number of
+                participants and fell down.
               </h4>
             </VerticalTimelineElement>
             <VerticalTimelineElement
