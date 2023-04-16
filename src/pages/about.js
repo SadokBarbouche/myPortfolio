@@ -48,7 +48,7 @@ const About = () => {
           }}
         />
 
-        <h1 className="display-1 fw-bolder text-center mb-5">
+        <h1 className="display-1 fw-bolder text-center mb-5" id="whoami">
           {" "}
           whoami
           <span style={{ color: "red" }}>

@@ -5,6 +5,7 @@ import { Typewriter, useTypewriter, Cursor } from "react-simple-typewriter";
 import About from "./about";
 import { Cursor as AnimatedCursor } from "react-creative-cursor";
 import "react-creative-cursor/dist/styles.css";
+import "../styles/style.css";
 
 export default function LandingPage() {
   const { text } = useTypewriter({
@@ -13,8 +14,7 @@ export default function LandingPage() {
       "  a Machine Learning enthusiast",
       " a Deep Learning enthusiast",
       " open to work",
-      " a minimalist"
-
+      " a minimalist",
     ],
     loop: "0",
   });
@@ -22,7 +22,7 @@ export default function LandingPage() {
     <svg
       xmlns="http://www.w3.org/2000/svg"
       width="24"
-      height="24" 
+      height="24"
       fill="invertColor"
       class="bi bi-arrow-up-circle"
       viewBox="0 0 16 16"
@@ -35,7 +35,10 @@ export default function LandingPage() {
     </svg>
   );
   const screenHeight = window.screen.availHeight + "px";
-
+  const handleClick = () => {
+    const div = document.getElementById("whoami");
+    div.scrollIntoView({ behavior: "smooth" });
+  };
   return (
     <div
       style={{
@@ -64,6 +67,8 @@ export default function LandingPage() {
           </h1>
         </Container>
       </div>
+      <div class="down-arrow" onClick={handleClick}></div>
+
       <ScrollToTop
         smooth
         component={arrowTop}
