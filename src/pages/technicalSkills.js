@@ -7,7 +7,8 @@ import ProgressBar from "react-bootstrap/ProgressBar";
 const TechnicalSkills = () => {
   return (
     <ScrollAnimation animateIn="fadeIn" delay={250} animateOnce="true">
-      <Container className="mt-3 py-2">
+      
+      <Container className="my-3 py-2">
         <h1 className="display-1 fw-bolder  text-center">
           {" "}
           skills{" "}
@@ -17,6 +18,8 @@ const TechnicalSkills = () => {
             &gt;
           </span>
         </h1>
+        <br />
+
         <Container className="mx-3 my-2">
           <Row className="my-4">
             <Col sm={12} md={6}>
@@ -148,6 +151,7 @@ const TechnicalSkills = () => {
         </Container>
         <p></p>
       </Container>
+      
     </ScrollAnimation>
   );
 };

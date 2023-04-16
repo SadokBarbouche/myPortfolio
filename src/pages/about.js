@@ -34,27 +34,33 @@ const About = () => {
     </svg>
   );
   return (
-    <ScrollAnimation animateIn="fadeIn" animateOnce="true" >
-      <Container className="text-start my-5 pb-5">
-        <ScrollToTop
-          smooth
-          component={arrowTop}
-          style={{
-            borderRadius: "25px",
-            opacity: "0.5",
-            border: "1px white solid",
-            right: "20px",
-            bottom: "10px",
-          }}
-        />
-
-        <h1 className="display-1 fw-bolder text-center mb-5" id="whoami">
+    <Container className="text-start my-5 pb-5" id="whoami">
+      <ScrollToTop
+        smooth
+        component={arrowTop}
+        style={{
+          borderRadius: "25px",
+          opacity: "0.5",
+          border: "1px white solid",
+          right: "20px",
+          bottom: "10px",
+        }}
+      />
+      <br />
+      <br />
+      <br />
+      <br />
+      <ScrollAnimation animateIn="fadeIn" animateOnce="true">
+        <h1 className="display-1 fw-bolder text-center mb-5">
           {" "}
           whoami
           <span style={{ color: "red" }}>
             <Cursor cursorStyle="_" />
           </span>{" "}
         </h1>
+      </ScrollAnimation>
+      <br />
+      <ScrollAnimation animateIn="slideInUp" animateOnce="true">
         <Row
           className="text-center"
           style={{
@@ -132,17 +138,18 @@ const About = () => {
                 >
                   <li>
                     Competetive programming{" "}
-                    <span className="ms-1 text-danger">
-                      {coneIcon}
-                    </span>
+                    <span className="ms-1 text-danger">{coneIcon}</span>
                   </li>
                 </a>
               </ul>
             </div>
           </Col>
         </Row>
-      </Container>
-    </ScrollAnimation>
+      </ScrollAnimation>
+
+      <br />
+      <br />
+    </Container>
   );
 };
 export default About;

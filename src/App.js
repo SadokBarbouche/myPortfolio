@@ -7,18 +7,19 @@ import Projects from "./pages/projects";
 import Contact from "./pages/contact";
 import { Routes, Route, Link } from "react-router-dom";
 import Experiences from "./pages/Experience";
-import Footer from "./pages/footer";
-import { Cursor as AnimatedCursor } from "react-creative-cursor";
 import "react-creative-cursor/dist/styles.css";
+import "./styles/style.css";
 function App() {
   return (
-    <div className="App" style={{
-      backgroundColor:"black",
-      color:"white"
-    }}>
+    <div
+      className="App wavy-background"
+      style={{
+        backgroundColor: "black",
+        color: "white",
+      }}
+    >
       
-      <AnimatedCursor  isGelly={true} className="d-none d-sm-block" cursorBackgrounColor="rgb(139,0,0,0.5)
-" />
+
       <LandingPage />
       <About />
       <TechnicalSkills />

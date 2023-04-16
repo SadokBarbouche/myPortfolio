@@ -20,7 +20,7 @@ const Contact = () => {
         </span>
       </h2>
       <Container style={{ display: "flex", justifyContent: "center" }}>
-        <ScrollAnimation animateIn="fadeInLeft" animateOnce="true">
+        <ScrollAnimation animateIn="fadeIn" animateOnce="true">
           <Row className="my-5">
             <Col md={4} sm={10} className="me-md-5">
               <Image

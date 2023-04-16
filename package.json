@@ -16,11 +16,13 @@
     "react-creative-cursor": "^1.2.7",
     "react-dark-mode-toggle-2": "^2.0.8",
     "react-dom": "^18.2.0",
+    "react-particles": "^2.9.3",
     "react-router-dom": "^6.3.0",
     "react-scripts": "5.0.1",
     "react-scroll-to-top": "^1.0.9",
     "react-simple-typewriter": "^3.0.1",
     "react-skills": "^1.27.0",
+    "react-tsparticles": "^2.9.3",
     "react-vertical-timeline-component": "^3.5.2",
     "web-vitals": "^2.1.4"
   },

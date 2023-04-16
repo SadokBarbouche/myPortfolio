@@ -42,18 +42,19 @@ export default function LandingPage() {
   return (
     <div
       style={{
-        height: screenHeight,
+        alignItems: "center",
+        height: "100vh",
         display: "flex",
         justifyContent: "center",
         alignContent: "center",
         backgroundColor: "black",
       }}
     >
-      <div className="py-5">
-        <Container className="mt-5 pt-5 text-start">
+      <div className="">
+        <Container className="text-start">
           <h1
             className="display-1 fw-bolder"
-            style={{ color: "white", marginTop: "100px" }}
+            style={{ color: "white", marginTop: "-100px" }}
           >
             Sadok Barbouche
             <h1>
