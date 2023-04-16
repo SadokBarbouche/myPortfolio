@@ -35,6 +35,7 @@ export default function LandingPage() {
     </svg>
   );
   const screenHeight = window.screen.availHeight + "px";
+
   return (
     <div
       style={{

@@ -16,7 +16,8 @@ function App() {
       backgroundColor:"black",
       color:"white"
     }}>
-      <AnimatedCursor isGelly={false} cursorBackgrounColor="rgb(139,0,0,0.5)
+      
+      <AnimatedCursor  isGelly={true} className="d-none d-sm-block" cursorBackgrounColor="rgb(139,0,0,0.5)
 " />
       <LandingPage />
       <About />

@@ -140,7 +140,7 @@ const Contact = () => {
                   >
                     <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z" />
                   </svg>
-                  3 Rue d'Alger , Kef , 7100 , Tunisia
+                  Borj El Baccouche, Ariana, Tunisia
                 </span>
               </p>
               <Button className="fs-5 fw-bolder bg-dark mt-3" variant="dark">
