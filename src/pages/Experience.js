@@ -14,7 +14,7 @@ const Experiences = () => {
   });
   const screenWidthDiff = Boolean(window.screen.availWidth - 950 > 0);
   return (
-    <div style={{ backgroundColor: "black" }}>
+    <div style={{ backgroundColor: "" }}>
       <Container className="text-light pb-5">
         <p
           className="display-2 fw-bolder text-danger py-1"

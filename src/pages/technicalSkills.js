@@ -23,7 +23,7 @@ const TechnicalSkills = () => {
         <Container className="mx-3 my-2">
           <Row className="my-4">
             <Col sm={12} md={6}>
-              <p className="text-start fw-bolder fs-4 text-light">
+              <p className="text-start fw-bolder fs-4 ">
                 Machine Learning / Deep Learning
                 <span style={{ float: "right" }} className="my-2 fs-6 pe-1">
                   Currently learning
@@ -32,7 +32,7 @@ const TechnicalSkills = () => {
               <ProgressBar now={55} variant="danger" className="my-3" />
             </Col>
             <Col sm={12} md={6}>
-              <p className="text-start fw-bolder fs-4 text-light">
+              <p className="text-start fw-bolder fs-4 ">
                 HTML/CSS/Vanilla JS
                 <span style={{ float: "right" }} className="my-2 fs-6 pe-1">
                   80%
@@ -58,7 +58,7 @@ const TechnicalSkills = () => {
               <ProgressBar now={70} variant="danger" className="my-3" />
             </Col>
             <Col sm={12} md={6}>
-              <p className="text-start fw-bolder fs-4 text-light">
+              <p className="text-start fw-bolder fs-4 ">
                 Bootstrap
                 <span style={{ float: "right" }} className="my-2 fs-6 pe-1">
                   90%
@@ -74,7 +74,7 @@ const TechnicalSkills = () => {
           </Row>
           <Row className="my-4 ">
             <Col sm={12} md={6}>
-              <p className="text-start fw-bolder fs-4 text-light">
+              <p className="text-start fw-bolder fs-4 ">
                 Java
                 <span style={{ float: "right" }} className="my-2 fs-6 pe-1">
                   55%
@@ -83,7 +83,7 @@ const TechnicalSkills = () => {
               <ProgressBar now={55} variant="danger" className="my-3" />
             </Col>
             <Col sm={12} md={6}>
-              <p className="text-start fw-bolder fs-4 text-light">
+              <p className="text-start fw-bolder fs-4 ">
                 C/C++
                 <span style={{ float: "right" }} className="my-2 fs-6 pe-1">
                   60%
@@ -100,7 +100,7 @@ const TechnicalSkills = () => {
           </Row>
           <Row className="my-4">
             <Col sm={12} md={6}>
-              <p className="text-start fw-bolder fs-4 text-light">
+              <p className="text-start fw-bolder fs-4 ">
                 Python
                 <span style={{ float: "right" }} className="my-2 fs-6 pe-1">
                   70%
@@ -109,7 +109,7 @@ const TechnicalSkills = () => {
               <ProgressBar now={70} variant="danger" className="my-3" />
             </Col>
             <Col sm={12} md={6}>
-              <p className="text-start fw-bolder fs-4 text-light">
+              <p className="text-start fw-bolder fs-4 ">
                 TensorFlow
                 <span style={{ float: "right" }} className="my-2 fs-6 pe-1">
                   Currently learning
@@ -125,7 +125,7 @@ const TechnicalSkills = () => {
           </Row>
           <Row className="my-4 mb-5">
             <Col sm={12} md={6}>
-              <p className="text-start fw-bolder fs-4 text-light">
+              <p className="text-start fw-bolder fs-4 ">
                 DSA
                 <span style={{ float: "right" }} className="my-2 fs-6 pe-1">
                   65%
@@ -134,7 +134,7 @@ const TechnicalSkills = () => {
               <ProgressBar now={65} variant="danger" className="my-3" />
             </Col>
             <Col sm={12} md={6}>
-              <p className="text-start fw-bolder fs-4 text-light">
+              <p className="text-start fw-bolder fs-4 ">
                 Data visualisation and analytics
                 <span style={{ float: "right" }} className="my-2 fs-6 pe-1">
                   Currently learning

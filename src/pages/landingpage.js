@@ -47,14 +47,13 @@ export default function LandingPage() {
         display: "flex",
         justifyContent: "center",
         alignContent: "center",
-        backgroundColor: "black",
       }}
     >
       <div className="">
         <Container className="text-start">
           <h1
             className="display-1 fw-bolder"
-            style={{ color: "white", marginTop: "-100px" }}
+            style={{ marginTop: "-150px" }}
           >
             Sadok Barbouche
             <h1>

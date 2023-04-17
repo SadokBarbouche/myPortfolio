@@ -9,17 +9,30 @@ import { Routes, Route, Link } from "react-router-dom";
 import Experiences from "./pages/Experience";
 import "react-creative-cursor/dist/styles.css";
 import "./styles/style.css";
+import Particles from "react-particles";
+import { useState } from "react";
+import { Button } from "react-bootstrap";
+import DarkModeToggle from "react-dark-mode-toggle";
+
 function App() {
+  const [darkMode, setDarkMode] = useState(true);
   return (
     <div
-      className="App wavy-background"
+      className="App"
       style={{
-        backgroundColor: "black",
-        color: "white",
+        color: darkMode ? "white" : "black",
+        backgroundColor: darkMode ? "black" : "white",
+        fontFamily: 'Share Tech ',
+
       }}
     >
-      
-
+      <div className="text-end me-5 pt-1">
+        <DarkModeToggle style={{
+          backgroundImage:'none',
+      }} onChange={setDarkMode} checked={darkMode} size={80} speed={2} style={{
+          
+        }} />
+      </div>
       <LandingPage />
       <About />
       <TechnicalSkills />

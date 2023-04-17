@@ -39,8 +39,7 @@ const Contact = () => {
               <a
                 href="https://www.facebook.com/sadok.barbouche.942"
                 target={"blank"}
-                className="text-light"
-                style={{ textDecoration: "none" }}
+                style={{ textDecoration: "none",color:'inherit' }}
               >
                 <p className="fs-5 fw-bolder">
                   <span>
@@ -62,8 +61,8 @@ const Contact = () => {
               <a
                 href="https://github.com/SadokBarbouche/"
                 target="blank"
-                style={{ textDecoration: "none" }}
-                className="text-light"
+                style={{ textDecoration: "none", color: "inherit" }}
+                
               >
                 <p className="fs-5 fw-bolder">
                   <span>
@@ -82,13 +81,12 @@ const Contact = () => {
                   </span>
                 </p>
               </a>
-              <a
-                href="https://www.linkedin.com/in/barbouche-sadok-03b162210/"
-                target={"blank"}
-                className="text-light"
-                style={{ textDecoration: "none" }}
-              >
-                <p className="fs-5 fw-bolder">
+              <p className="fs-5 fw-bolder">
+                <a
+                  href="https://www.linkedin.com/in/barbouche-sadok-03b162210/"
+                  target={"blank"}
+                  style={{ textDecoration: "none", color: "inherit" }}
+                >
                   <span>
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -103,14 +101,13 @@ const Contact = () => {
                     </svg>
                   </span>
                   Linkedin
-                </p>
-              </a>
-              <a
-                href="mailto:sadokchameseddine.barbouche@insat.ucar.tn"
-                className="text-light"
-                style={{ textDecoration: "none" }}
-              >
-                <p className="fs-5 fw-bolder">
+                </a>
+              </p>
+              <p className="fs-5 fw-bolder">
+                <a
+                  href="mailto:sadokchameseddine.barbouche@insat.ucar.tn"
+                  style={{ textDecoration: "none", color: "inherit" }}
+                >
                   <span>
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -125,8 +122,8 @@ const Contact = () => {
                     </svg>
                     E-mail
                   </span>
-                </p>
-              </a>
+                </a>
+              </p>
               <p className="fs-5 fw-bolder">
                 <span>
                   <svg

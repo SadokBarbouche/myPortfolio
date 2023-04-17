@@ -93,9 +93,9 @@ const ProjectItem = (props) => (
 );
 const Projects = () => {
   return (
-    <div style={{ backgroundColor: "black", border: "1px black solid" }}>
+    <div style={{  border: "1px " }}>
       <Container className="my-2 py-4 mb-4 ">
-        <h1 className="display-1 fw-bolder  text-center mb-4 text-light">
+        <h1 className="display-1 fw-bolder  text-center mb-4 ">
           Projects
           <span style={{ color: "red" }}>
             <Cursor className="py-5 px-5 " cursorStyle="|" />
