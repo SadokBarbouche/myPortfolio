@@ -133,8 +133,7 @@ const About = () => {
                 <a
                   target="blank"
                   href="https://leetcode.com/SadokBarbouche/"
-                  className="text-light"
-                  style={{ textDecoration: "none" }}
+                  style={{ textDecoration: "none",color:'inherit' }}
                 >
                   <li>
                     Competetive programming{" "}

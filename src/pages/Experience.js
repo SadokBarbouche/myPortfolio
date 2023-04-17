@@ -1,5 +1,6 @@
 import ScrollAnimation from "@stromsky/react-animate-on-scroll";
 import React from "react";
+import { useState } from "react";
 import { Container } from "react-bootstrap";
 import { Cursor, useTypewriter } from "react-simple-typewriter";
 import {
@@ -13,6 +14,7 @@ const Experiences = () => {
     loop: 0,
   });
   const screenWidthDiff = Boolean(window.screen.availWidth - 950 > 0);
+
   return (
     <div style={{ backgroundColor: "" }}>
       <Container className="text-light pb-5">
@@ -93,7 +95,7 @@ const Experiences = () => {
                 border: "5px white solid",
               }}
               className="vertical-timeline-element--work"
-              date="2022 - present"
+              date=<span style={{}}>2022 - present</span>
               iconStyle={{ background: "black", color: "#fff" }}
               contentArrowStyle={{
                 marginRight: "1px",

@@ -25,6 +25,7 @@
     "react-skills": "^1.27.0",
     "react-tsparticles": "^2.9.3",
     "react-vertical-timeline-component": "^3.5.2",
+    "tsparticles": "^2.9.3",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
