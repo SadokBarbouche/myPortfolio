@@ -3,7 +3,7 @@ import ScrollAnimation from "@stromsky/react-animate-on-scroll";
 import { Col, Container, Row } from "react-bootstrap";
 import { Cursor, useTypewriter } from "react-simple-typewriter";
 import ProgressBar from "react-bootstrap/ProgressBar";
-
+import CustomProgressBar from "../components/Progress";
 const TechnicalSkills = () => {
   return (
     <Container className="my-3 py-2">
@@ -30,7 +30,7 @@ const TechnicalSkills = () => {
                 Currently learning
               </span>
             </p>
-            <ProgressBar now={55} variant="danger" className="my-3" />
+            <CustomProgressBar target={75} variant="danger" className="my-3" />
           </Col>
           <Col sm={12} md={6}>
             <p className="text-start fw-bolder fs-4 ">
@@ -39,9 +39,9 @@ const TechnicalSkills = () => {
                 80%
               </span>
             </p>
-            <ProgressBar
+            <CustomProgressBar
+              target={80}
               translate="yes"
-              now={80}
               variant="danger"
               className="my-3"
             />
@@ -56,7 +56,7 @@ const TechnicalSkills = () => {
               </span>
             </p>
 
-            <ProgressBar now={70} variant="danger" className="my-3" />
+            <CustomProgressBar target={70} variant="danger" className="my-3" />
           </Col>
           <Col sm={12} md={6}>
             <p className="text-start fw-bolder fs-4 ">
@@ -65,7 +65,7 @@ const TechnicalSkills = () => {
                 90%
               </span>
             </p>
-            <ProgressBar disabled now={90} variant="danger" className="my-3" />
+            <CustomProgressBar target={90} variant="danger" className="my-3" />
           </Col>
         </Row>
         <Row className="my-4 ">
@@ -76,7 +76,7 @@ const TechnicalSkills = () => {
                 55%
               </span>
             </p>
-            <ProgressBar now={55} variant="danger" className="my-3" />
+            <CustomProgressBar target={55} variant="danger" className="my-3" />
           </Col>
           <Col sm={12} md={6}>
             <p className="text-start fw-bolder fs-4 ">
@@ -86,8 +86,8 @@ const TechnicalSkills = () => {
               </span>
             </p>
 
-            <ProgressBar
-              now={60}
+            <CustomProgressBar
+              target={60}
               aria-autocomplete={true}
               variant="danger"
               className="my-3"
@@ -102,7 +102,7 @@ const TechnicalSkills = () => {
                 70%
               </span>
             </p>
-            <ProgressBar now={70} variant="danger" className="my-3" />
+            <CustomProgressBar target={70} variant="danger" className="my-3" />
           </Col>
           <Col sm={12} md={6}>
             <p className="text-start fw-bolder fs-4 ">
@@ -111,9 +111,9 @@ const TechnicalSkills = () => {
                 Currently learning
               </span>
             </p>
-            <ProgressBar
+            <CustomProgressBar
+              target={45}
               translate="yes"
-              now={45}
               variant="danger"
               className="my-3"
             />
@@ -127,7 +127,7 @@ const TechnicalSkills = () => {
                 65%
               </span>
             </p>
-            <ProgressBar now={65} variant="danger" className="my-3" />
+            <CustomProgressBar target={65} variant="danger" className="my-3" />
           </Col>
           <Col sm={12} md={6}>
             <p className="text-start fw-bolder fs-4 ">
@@ -136,9 +136,9 @@ const TechnicalSkills = () => {
                 Currently learning
               </span>
             </p>
-            <ProgressBar
+            <CustomProgressBar
+              target={70}
               translate="yes"
-              now={70}
               variant="danger"
               className="my-3"
             />

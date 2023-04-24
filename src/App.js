@@ -40,8 +40,8 @@ function App() {
         color: darkMode ? "white" : "black",
         backgroundColor: darkMode ? "black" : "white",
         fontFamily: "Share Tech ",
-        position: 'relative',
-        zIndex: '1'
+        position: "relative",
+        zIndex: "1",
       }}
     >
       <div className="text-end me-5 pt-1">
@@ -105,7 +105,7 @@ function App() {
                 default: "bounce",
               },
               random: false,
-              speed: 3,
+              speed: 1.5,
               straight: false,
             },
             number: {

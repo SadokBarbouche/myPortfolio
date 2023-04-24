@@ -18,10 +18,7 @@ const Experiences = () => {
   return (
     <div style={{ backgroundColor: "" }}>
       <Container className="text-light pb-5">
-        <p
-          className="display-2 fw-bolder text-danger py-1"
-          style={{ borderBottom: "1px white solid", lineHeight: "2" }}
-        >
+        <p className="display-2 fw-bolder text-danger py-1">
           Experience{" "}
           <span className="fs-1 text-light">
             &lt;xp
@@ -30,7 +27,7 @@ const Experiences = () => {
           </span>
         </p>
         <div>
-          <VerticalTimeline animate={screenWidthDiff}>
+          <VerticalTimeline lineColor="red" animate={screenWidthDiff}>
             <VerticalTimelineElement
               contentStyle={{
                 background: "#000",
